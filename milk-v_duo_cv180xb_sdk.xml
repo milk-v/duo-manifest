@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="./" name="milk-v"/>
+  
+  <default remote="milk-v" sync-j="4"/>
+  
+  <project name="cvitek-build" path="build" revision="b0cd6d38482b4f92d2508a2a3664e640baa5292c" upstream="main"/>
+  <project name="cvitek-buildroot-2021.05" path="buildroot-2021.05" revision="cf8eb9fb2da9c5306c9dfa3b011d0b3723c99729" upstream="main"/>
+  <project name="cvitek-freertos" path="freertos" revision="c8c52e3f0ee9c9ce09884eff3c51e77f31843b57" upstream="main"/>
+  <project name="cvitek-fsbl" path="fsbl" revision="d02ded303667182fe416908de0fac30baa5dc617" upstream="main"/>
+  <project name="cvitek-host-tools" path="host-tools" revision="dfc1783c9441308918c689df68f49d449a1c2d37" upstream="main"/>
+  <project name="cvitek-isp-tuning" path="isp_tuning" revision="bb859c5642048c2c6518ca72ed6135c937f189a0" upstream="main"/>
+  <project name="cvitek-linux-5.10" path="linux_5.10" revision="d29e03ac5b42dec61170d9236f5d72548bb7e0cb" upstream="main"/>
+  <project name="cvitek-middleware-v2" path="middleware/v2" revision="561c7ba197a1ca899dd9387ce0f5cdc03a0e0202" upstream="main"/>
+  <project name="cvitek-opensbi" path="opensbi" revision="c7cfd2badcab0c031a632e7e8a5eaa7dedd37274" upstream="main"/>
+  <project name="cvitek-ramdisk" path="ramdisk" revision="a9cfac392b9d712484deec17d99b2acfefe15971" upstream="main"/>
+  <project name="cvitek-u-boot-2021.10" path="u-boot-2021.10" revision="4d4d2fec7b362c07d3af3ea38da9a14577c04f36" upstream="main"/>
+</manifest>
