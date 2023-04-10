@@ -3,6 +3,7 @@
 ## Quick Start
 
 ### 1. Install dependencies
+An ubuntu system, virtual machine or local host, **Ubuntu 20.04 LTS** is recommended.
 ```
 $ sudo apt install dialog python3-dev make git bc gcc flex bison ninja-build libssl-dev \
       rsync pkg-config device-tree-compiler squashfs-tools parted dosfstools
@@ -13,8 +14,9 @@ CMake 3.16.5 or higher is required.
 ```
 $ wget -c https://cmake.org/files/v3.19/cmake-3.19.3-Linux-x86_64.tar.gz
 $ tar -zxvf cmake-3.19.3-Linux-x86_64.tar.gz
-$ sudo mv cmake-3.19.3-Linux-x86_64  /usr/bin
-$ echo 'export PATH="/usr/bin/cmake-3.19.3-Linux-x86_64/bin:$PATH"'  >> ~/.bashrc
+$ sudo mv cmake-3.19.3-Linux-x86_64 /usr/bin/
+$ echo 'export PATH="/usr/bin/cmake-3.19.3-Linux-x86_64/bin:$PATH"' >> ~/.bashrc
+$ source ~/.bashrc
 ```
 
 ### 3. Download the repo
