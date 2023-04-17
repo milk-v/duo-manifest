@@ -18,6 +18,11 @@ $ sudo mv cmake-3.19.3-Linux-x86_64 /usr/bin/
 $ echo 'export PATH="/usr/bin/cmake-3.19.3-Linux-x86_64/bin:$PATH"' >> ~/.bashrc
 $ source ~/.bashrc
 ```
+Or use pip install CMake.
+```
+sudo apt install python-is-python3 python3-pip
+pip install cmake
+```
 
 ### 3. Download the repo
 ```
@@ -29,7 +34,7 @@ $ chmod a+rx ~/.bin/repo
 
 ### 4. Get SDK source code
 ```
-$ mkdir duo && duo
+$ mkdir duo && cd duo
 $ repo init -u git@github.com:milk-v/duo-manifest.git -b main -m milk-v_duo_cv180xb_sdk.xml
 $ repo sync
 ```
