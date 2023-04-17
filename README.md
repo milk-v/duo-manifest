@@ -20,8 +20,8 @@ $ source ~/.bashrc
 ```
 Or use pip install CMake.
 ```
-sudo apt install python-is-python3 python3-pip
-pip install cmake
+$ sudo apt install python-is-python3 python3-pip
+$ pip install cmake
 ```
 
 ### 3. Download the repo
@@ -60,3 +60,14 @@ $ sudo dd if=./sophpi-duo-*.img of=/dev/sdx bs=32M status=progress oflag=direct
 ### 7. Boot
 
 Insert the SD card and connect it to the power supply (5V). The board will boot the system from the SD card. The login password is **root** 
+
+
+### FAQs
+
+1. Why is only one core shown?
+
+   Linux runs on one core only, the SDK for the other core is not yet publicly available.
+
+2. Why is only 32M RAM shown?
+
+   Some of the memory is allocated to [ION](https://github.com/milk-v/cvitek-build/blob/main/boards/default/dts/cv180x/cv180x_default_memmap.dtsi#L15). You can change the [value](https://github.com/milk-v/cvitek-build/blob/main/boards/cv180x/cv1800b_sophpi_duo_sd/memmap.py#L43) and recompile the image.
