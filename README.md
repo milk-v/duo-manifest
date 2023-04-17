@@ -18,7 +18,7 @@ $ sudo mv cmake-3.19.3-Linux-x86_64 /usr/bin/
 $ echo 'export PATH="/usr/bin/cmake-3.19.3-Linux-x86_64/bin:$PATH"' >> ~/.bashrc
 $ source ~/.bashrc
 ```
-or use pip install CMake
+Or use pip install CMake.
 ```
 sudo apt install python-is-python3 python3-pip
 pip install cmake
