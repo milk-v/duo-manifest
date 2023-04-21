@@ -6,7 +6,7 @@
 An ubuntu system, virtual machine or local host, **Ubuntu 20.04 LTS** is recommended.
 ```
 $ sudo apt install dialog python3-dev make git bc gcc flex bison ninja-build libssl-dev \
-      rsync pkg-config device-tree-compiler squashfs-tools parted dosfstools cpio
+      rsync pkg-config device-tree-compiler squashfs-tools parted dosfstools cpio unzip
 ```
 
 ### 2. Install cmake
