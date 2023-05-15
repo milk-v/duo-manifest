@@ -6,7 +6,7 @@
 An ubuntu system, virtual machine or local host, **Ubuntu 20.04 LTS** is recommended.
 ```
 $ sudo apt install dialog python3-dev make git bc gcc flex bison ninja-build libssl-dev \
-      rsync pkg-config device-tree-compiler squashfs-tools parted dosfstools cpio unzip
+      rsync pkg-config device-tree-compiler squashfs-tools parted dosfstools cpio unzip wget
 ```
 
 ### 2. Install cmake
@@ -31,6 +31,8 @@ $ PATH="${HOME}/.bin:${PATH}"
 $ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo
 $ chmod a+rx ~/.bin/repo
 ```
+
+Please refer [here](https://mirrors.tuna.tsinghua.edu.cn/help/git-repo/) to use tuna repo mirror.
 
 ### 4. Get SDK source code
 ```
