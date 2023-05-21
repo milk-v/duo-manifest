@@ -42,6 +42,10 @@ $ repo sync
 ```
 
 ### 5. Compile
+
+> **Note**
+> Use `bash` only. `zsh` is not supported.
+
 ```
 $ source build/cvisetup.sh
 $ defconfig cv1800b_sophpi_duo_sd
