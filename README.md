@@ -1,5 +1,7 @@
 # Milk-V Duo
 
+**! This repository has been archived, please visit the new repository: https://github.com/milkv-duo/duo-buildroot-sdk**
+
 ## Quick Start
 
 ### 1. Install dependencies
